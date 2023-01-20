@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2D2D2D;
+}
+
+header svg {
+    margin: 40px 0 0 50px;
+}
+
+main {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.form {
+    width: 40%;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+.input-group {
+    margin: 10px 0 30px;
+    position: relative;
+}
+
+.form form input,
+.form form label {
+    width: 100%;
+}
+
+.form form label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form form input {
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid #181818;
+    color: #616161;
+}
+
+.form form input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
+    font-weight: 400;
+}
+
+.btn-form {
+    width: 100%;
+    background-color: #0C70F2;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    border: 0;
+    padding: 15px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.errorMessage {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: #E73550;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.formMessageError,
+.formMessageSuccess {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+
+.formMessageSuccess {
+    color: #0F7B0F;
+}
+
+.formMessageError {
+    color: #E73550;
+}
